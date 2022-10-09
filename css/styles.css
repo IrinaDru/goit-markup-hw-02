@@ -1,0 +1,27 @@
+body {
+    background-color: #F5F5F5;
+    color: #757575;
+}
+/* logo #000000 #2196F3*/
+/* основной  черный цвет #212121; */
+/* заголовок белый #FFFFFF; */
+/* вторичный цвет #757575; */
+/* наведение #2196F3; */
+/* background hero и footer #2F303A; */
+
+.logo {
+    color: #2196F3;
+}
+
+ul {
+    list-style: none;
+}
+
+.site-nav a {
+    color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3;
+}
