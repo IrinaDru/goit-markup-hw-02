@@ -1,7 +1,9 @@
 :root {
+    --hero-text-color: #FFFFFF;
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
+    --button-bg-color: #F5F4FA;
 
 }
 
@@ -25,7 +27,7 @@ body {
     background-color: #2F303A;
 }
 .hero-title {
-    color: #FFFFFF;
+    color: var(--hero-text-color)
 }
 
 /* site nav */
@@ -42,6 +44,10 @@ ul {
     color: var(--accent-color);
 }
 
+.site-nav .link.current {
+    color: var(--accent-color)
+}
+
 /* section */
 .section-title {
     color: var(--title-text-color);
@@ -55,4 +61,40 @@ color: var(--title-text-color);
 /* section-team */
 .section-team .team {
     color: var(--title-text-color);
+}
+
+/* footer */
+.footer {
+    background-color: #2F303A;
+}
+.footer .maps {
+    color: var(--hero-text-color);   
+}
+.footer .maps:hover,
+.footer .maps:focus {
+    color: var(--accent-color);
+}
+
+.footer .contact {
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer .contact:hover,
+.footer .contact:focus {
+    color: var(--accent-color)
+}
+
+/* PORTFOLIO */
+
+.button {
+    color: var(--title-text-color);
+    background-color: var(--button-bg-color);
+}
+.button.primary {
+    background-color: var(--accent-color);
+    color: var(--hero-text-color)
+}
+
+.button.secondary {
+    background-color: var(--button-bg-color);
+    color: var(--title-text-color)
 }
