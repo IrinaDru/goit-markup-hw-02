@@ -1,3 +1,10 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+
+}
+
 body {
     background-color: #F5F5F5;
     color: #757575;
@@ -10,18 +17,42 @@ body {
 /* background hero и footer #2F303A; */
 
 .logo {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
+/* hero */
+.hero {
+    background-color: #2F303A;
+}
+.hero-title {
+    color: #FFFFFF;
+}
+
+/* site nav */
 ul {
     list-style: none;
 }
 
 .site-nav a {
-    color: #212121;
+    color: var(--title-text-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
+}
+
+/* section */
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* features */
+.features .feature-titel {
+color: var(--title-text-color);
+}
+
+/* section-team */
+.section-team .team {
+    color: var(--title-text-color);
 }
