@@ -97,4 +97,10 @@ color: var(--title-text-color);
 .button.secondary {
     background-color: var(--button-bg-color);
     color: var(--title-text-color)
+} 
+
+.button:hover,
+.button:focus {
+    background-color: var(--accent-color);
+    color: var(--hero-text-color)
 }
