@@ -157,6 +157,7 @@ ul {
 .button {
     color: var(--title-text-color);
     background-color: var(--secondary-bgd-color); 
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
